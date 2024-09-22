@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-use UrlStatusChecker\UrlStatusChecker;
+use Kalkani\PhpUrlStatusChecker\UrlStatusChecker;
 
 $checker = new UrlStatusChecker();
 

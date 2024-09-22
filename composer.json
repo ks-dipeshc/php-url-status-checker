@@ -1,0 +1,15 @@
+{
+    "name": "kalkani/url-status-checker",
+    "description": "A package to check the status code of a URL and detect redirections.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "UrlStatusChecker\\": "src/"
+        }
+    }
+}
